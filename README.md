@@ -4,6 +4,10 @@
 
 I created an Age Calculator app as part of the [Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) challenge. This app helps users to calculate their age based on their birthdate.
 
+## Link
+
+You can see a live demo of the Age Calculator [here](https://lawrpunk.github.io/age-calculator/).
+
 ## Features
 
 - Calculates users age based on their birthdate.
