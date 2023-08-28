@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <form id="dateForm" novalidate>
+          <div class="input-container">
+            <label for="day" id="day-label" class="input-label">Day</label>
+            <input
+              type="number"
+              id="day"
+              class="input-field"
+              placeholder="DD"
+              required
+            />
+            <span id="day-text-error" class="text-error"></span>
+          </div>
+
+          <div class="input-container">
+            <label for="month" id="month-label" class="input-label"
+              >Month</label
+            >
+            <input
+              type="number"
+              id="month"
+              class="input-field"
+              placeholder="MM"
+              required
+            />
+            <span id="month-text-error" class="text-error"></span>
+          </div>
+
+          <div class="input-container">
+            <label for="year" id="year-label" class="input-label">Year</label>
+            <input
+              type="number"
+              id="year"
+              class="input-field"
+              placeholder="YYYY"
+              required
+            />
+            <span id="year-text-error" class="text-error"></span>
+          </div>
+        </form>
+      </header>
+      <div class="submit-container">
+        <hr />
+        <button type="submit" class="submit-btn" form="dateForm">
+          <img src="assets/images/icon-arrow.svg" alt="icon-arrow" />
+        </button>
+      </div>
+      <section>
+        <p><span id="years-result">- -</span> years</p>
+        <p><span id="months-result">- -</span> months</p>
+        <p><span id="days-result">- -</span> days</p>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
